@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "SUGAR_USD",
+  "granularity": "M1",
+  "chunk_start": "2007-06-01",
+  "chunk_end": "2007-06-30",
+  "parquet_file": "OANDA_SUGARUSD_Sugar_1_2007-06-01_to_2007-06-30.parquet",
+  "data_file": "OANDA_SUGARUSD_Sugar_1_2007-06-01_to_2007-06-30.parquet",
+  "row_count": 6267,
+  "first_candle": {
+    "time": 1180675800,
+    "Time": "2007-06-01T05:30:00.000000000Z",
+    "open": 0.09298,
+    "high": 0.09308,
+    "low": 0.09298,
+    "close": 0.09308,
+    "volume": 2
+  },
+  "last_candle": {
+    "time": 1183144440,
+    "Time": "2007-06-29T19:14:00.000000000Z",
+    "open": 0.09163,
+    "high": 0.09183,
+    "low": 0.09163,
+    "close": 0.09183,
+    "volume": 3
+  },
+  "csv_file": "OANDA_SUGARUSD_Sugar_1_2007-06-01_to_2007-06-30.parquet",
+  "csv_row_count": 6267,
+  "csv_first_candle": {
+    "time": 1180675800,
+    "Time": "2007-06-01T05:30:00.000000000Z",
+    "open": 0.09298,
+    "high": 0.09308,
+    "low": 0.09298,
+    "close": 0.09308,
+    "volume": 2
+  },
+  "csv_last_candle": {
+    "time": 1183144440,
+    "Time": "2007-06-29T19:14:00.000000000Z",
+    "open": 0.09163,
+    "high": 0.09183,
+    "low": 0.09163,
+    "close": 0.09183,
+    "volume": 3
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T10:08:13.000000000Z",
+  "generated_at": "2026-10-15T10:08:13.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2488,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2007-05-28T17:39:00Z",
+        "to": "2007-06-01T04:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-01T04:59:00Z",
+        "to": "2007-06-04T16:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-04T16:19:00Z",
+        "to": "2007-06-08T03:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-08T03:39:00Z",
+        "to": "2007-06-11T14:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-11T14:59:00Z",
+        "to": "2007-06-15T02:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-15T02:19:00Z",
+        "to": "2007-06-18T13:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-18T13:39:00Z",
+        "to": "2007-06-22T00:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-22T00:59:00Z",
+        "to": "2007-06-25T12:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-25T12:19:00Z",
+        "to": "2007-06-28T23:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2007-06-28T23:39:00Z",
+        "to": "2007-07-02T10:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "pod_version": "4.0",
+  "instrument": "SUGAR_USD",
+  "granularity": "M1",
+  "chunk_start": "2016-05-01",
+  "chunk_end": "2016-05-31",
+  "parquet_file": "OANDA_SUGARUSD_Sugar_1_2016-05-01_to_2016-05-31.parquet",
+  "data_file": "OANDA_SUGARUSD_Sugar_1_2016-05-01_to_2016-05-31.parquet",
+  "row_count": 7047,
+  "first_candle": {
+    "time": 1462188600,
+    "Time": "2016-05-02T11:30:00.000000000Z",
+    "open": 0.16168,
+    "high": 0.16178,
+    "low": 0.16168,
+    "close": 0.16168,
+    "volume": 5
+  },
+  "last_candle": {
+    "time": 1464713880,
+    "Time": "2016-05-31T16:58:00.000000000Z",
+    "open": 0.17196,
+    "high": 0.17211,
+    "low": 0.17194,
+    "close": 0.17201,
+    "volume": 11
+  },
+  "csv_file": "OANDA_SUGARUSD_Sugar_1_2016-05-01_to_2016-05-31.parquet",
+  "csv_row_count": 7047,
+  "csv_first_candle": {
+    "time": 1462188600,
+    "Time": "2016-05-02T11:30:00.000000000Z",
+    "open": 0.16168,
+    "high": 0.16178,
+    "low": 0.16168,
+    "close": 0.16168,
+    "volume": 5
+  },
+  "csv_last_candle": {
+    "time": 1464713880,
+    "Time": "2016-05-31T16:58:00.000000000Z",
+    "open": 0.17196,
+    "high": 0.17211,
+    "low": 0.17194,
+    "close": 0.17201,
+    "volume": 11
+  },
+  "status": "ERROR",
+  "verified_at": "2026-10-15T10:08:48.000000000Z",
+  "generated_at": "2026-10-15T10:08:48.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2488,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 2,
+    "permanent_error_details": [
+      {
+        "from": "2016-04-27T16:19:00Z",
+        "to": "2016-05-01T03:39:00Z",
+        "code": 401,
+        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+      },
+      {
+        "from": "2016-05-25T10:59:00Z",
+        "to": "2016-05-28T22:19:00Z",
+        "code": 401,
+        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+      }
+    ],
+    "all_block_outcomes": [
+      {
+        "from": "2016-04-27T16:19:00Z",
+        "to": "2016-05-01T03:39:00Z",
+        "code": 401,
+        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+      },
+      {
+        "from": "2016-05-01T03:39:00Z",
+        "to": "2016-05-04T14:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-04T14:59:00Z",
+        "to": "2016-05-08T02:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-08T02:19:00Z",
+        "to": "2016-05-11T13:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-11T13:39:00Z",
+        "to": "2016-05-15T00:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-15T00:59:00Z",
+        "to": "2016-05-18T12:19:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-18T12:19:00Z",
+        "to": "2016-05-21T23:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-21T23:39:00Z",
+        "to": "2016-05-25T10:59:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2016-05-25T10:59:00Z",
+        "to": "2016-05-28T22:19:00Z",
+        "code": 401,
+        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+      },
+      {
+        "from": "2016-05-28T22:19:00Z",
+        "to": "2016-06-01T09:39:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
