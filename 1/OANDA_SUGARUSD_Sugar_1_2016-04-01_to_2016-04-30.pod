@@ -6,7 +6,7 @@
   "chunk_end": "2016-04-30",
   "parquet_file": "OANDA_SUGARUSD_Sugar_1_2016-04-01_to_2016-04-30.parquet",
   "data_file": "OANDA_SUGARUSD_Sugar_1_2016-04-01_to_2016-04-30.parquet",
-  "row_count": 5610,
+  "row_count": 7646,
   "first_candle": {
     "time": 1459495800,
     "Time": "2016-04-01T07:30:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 13
   },
   "last_candle": {
-    "time": 1461773880,
-    "Time": "2016-04-27T16:18:00.000000000Z",
-    "open": 0.15458,
-    "high": 0.15468,
-    "low": 0.15458,
-    "close": 0.15468,
-    "volume": 4
+    "time": 1461949140,
+    "Time": "2016-04-29T16:59:00.000000000Z",
+    "open": 0.16047,
+    "high": 0.16047,
+    "low": 0.16047,
+    "close": 0.16047,
+    "volume": 1
   },
   "csv_file": "OANDA_SUGARUSD_Sugar_1_2016-04-01_to_2016-04-30.parquet",
-  "csv_row_count": 5610,
+  "csv_row_count": 7646,
   "csv_first_candle": {
     "time": 1459495800,
     "Time": "2016-04-01T07:30:00.000000000Z",
@@ -37,35 +37,22 @@
     "volume": 13
   },
   "csv_last_candle": {
-    "time": 1461773880,
-    "Time": "2016-04-27T16:18:00.000000000Z",
-    "open": 0.15458,
-    "high": 0.15468,
-    "low": 0.15458,
-    "close": 0.15468,
-    "volume": 4
+    "time": 1461949140,
+    "Time": "2016-04-29T16:59:00.000000000Z",
+    "open": 0.16047,
+    "high": 0.16047,
+    "low": 0.16047,
+    "close": 0.16047,
+    "volume": 1
   },
-  "status": "ERROR",
-  "verified_at": "2026-10-15T10:08:48.000000000Z",
-  "generated_at": "2026-10-15T10:08:48.000000000Z",
+  "status": "VERIFIED",
+  "verified_at": "2026-10-19T08:11:08.000000000Z",
+  "generated_at": "2026-10-19T08:11:08.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 2488,
+    "total_api_blocks_in_run": 2490,
     "chunk_api_blocks": 9,
-    "chunk_permanent_errors": 2,
-    "permanent_error_details": [
-      {
-        "from": "2016-04-17T06:19:00Z",
-        "to": "2016-04-20T17:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
-      },
-      {
-        "from": "2016-04-27T16:19:00Z",
-        "to": "2016-05-01T03:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
-      }
-    ],
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
     "all_block_outcomes": [
       {
         "from": "2016-03-30T21:39:00Z",
@@ -100,8 +87,8 @@
       {
         "from": "2016-04-17T06:19:00Z",
         "to": "2016-04-20T17:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+        "code": 200,
+        "msg": "OK"
       },
       {
         "from": "2016-04-20T17:39:00Z",
@@ -118,8 +105,8 @@
       {
         "from": "2016-04-27T16:19:00Z",
         "to": "2016-05-01T03:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+        "code": 200,
+        "msg": "OK"
       }
     ]
   }

@@ -6,7 +6,7 @@
   "chunk_end": "2014-10-31",
   "parquet_file": "OANDA_SUGARUSD_Sugar_1_2014-10-01_to_2014-10-31.parquet",
   "data_file": "OANDA_SUGARUSD_Sugar_1_2014-10-01_to_2014-10-31.parquet",
-  "row_count": 6391,
+  "row_count": 6825,
   "first_candle": {
     "time": 1412148600,
     "Time": "2014-10-01T07:30:00.000000000Z",
@@ -26,7 +26,7 @@
     "volume": 1
   },
   "csv_file": "OANDA_SUGARUSD_Sugar_1_2014-10-01_to_2014-10-31.parquet",
-  "csv_row_count": 6391,
+  "csv_row_count": 6825,
   "csv_first_candle": {
     "time": 1412148600,
     "Time": "2014-10-01T07:30:00.000000000Z",
@@ -45,21 +45,14 @@
     "close": 0.1411,
     "volume": 1
   },
-  "status": "ERROR",
-  "verified_at": "2026-10-15T10:08:40.000000000Z",
-  "generated_at": "2026-10-15T10:08:40.000000000Z",
+  "status": "VERIFIED",
+  "verified_at": "2026-10-19T08:11:02.000000000Z",
+  "generated_at": "2026-10-19T08:11:02.000000000Z",
   "download_request": {
-    "total_api_blocks_in_run": 2488,
+    "total_api_blocks_in_run": 2490,
     "chunk_api_blocks": 10,
-    "chunk_permanent_errors": 1,
-    "permanent_error_details": [
-      {
-        "from": "2014-10-23T14:19:00Z",
-        "to": "2014-10-27T01:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
-      }
-    ],
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
     "all_block_outcomes": [
       {
         "from": "2014-09-29T06:59:00Z",
@@ -106,8 +99,8 @@
       {
         "from": "2014-10-23T14:19:00Z",
         "to": "2014-10-27T01:39:00Z",
-        "code": 401,
-        "msg": "{\"errorMessage\":\"Insufficient authorization to perform request.\"}"
+        "code": 200,
+        "msg": "OK"
       },
       {
         "from": "2014-10-27T01:39:00Z",
