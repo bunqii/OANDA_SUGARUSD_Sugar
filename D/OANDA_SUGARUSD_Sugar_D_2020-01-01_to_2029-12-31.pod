@@ -6,7 +6,7 @@
   "chunk_end": "2029-12-31",
   "parquet_file": "OANDA_SUGARUSD_Sugar_D_2020-01-01_to_2029-12-31.parquet",
   "data_file": "OANDA_SUGARUSD_Sugar_D_2020-01-01_to_2029-12-31.parquet",
-  "row_count": 1711,
+  "row_count": 1712,
   "first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -17,16 +17,16 @@
     "volume": 775
   },
   "last_candle": {
-    "time": 1792530000,
-    "Time": "2026-10-20T21:00:00.000000000Z",
-    "open": 0.19632,
-    "high": 0.19882,
-    "low": 0.19432,
-    "close": 0.19624,
-    "volume": 3450
+    "time": 1792616400,
+    "Time": "2026-10-21T21:00:00.000000000Z",
+    "open": 0.19638,
+    "high": 0.19792,
+    "low": 0.19276,
+    "close": 0.19324,
+    "volume": 3105
   },
   "csv_file": "OANDA_SUGARUSD_Sugar_D_2020-01-01_to_2029-12-31.parquet",
-  "csv_row_count": 1711,
+  "csv_row_count": 1712,
   "csv_first_candle": {
     "time": 1577916000,
     "Time": "2020-01-01T22:00:00.000000000Z",
@@ -37,17 +37,17 @@
     "volume": 775
   },
   "csv_last_candle": {
-    "time": 1792530000,
-    "Time": "2026-10-20T21:00:00.000000000Z",
-    "open": 0.19632,
-    "high": 0.19882,
-    "low": 0.19432,
-    "close": 0.19624,
-    "volume": 3450
+    "time": 1792616400,
+    "Time": "2026-10-21T21:00:00.000000000Z",
+    "open": 0.19638,
+    "high": 0.19792,
+    "low": 0.19276,
+    "close": 0.19324,
+    "volume": 3105
   },
   "status": "VERIFIED_PARTIAL",
-  "verified_at": "2026-10-22T04:21:43.000000000Z",
-  "generated_at": "2026-10-22T04:21:43.000000000Z",
+  "verified_at": "2026-10-23T04:27:32.000000000Z",
+  "generated_at": "2026-10-23T04:27:32.000000000Z",
   "download_request": {
     "total_api_blocks_in_run": 1,
     "chunk_api_blocks": 1,
@@ -55,8 +55,8 @@
     "permanent_error_details": [],
     "all_block_outcomes": [
       {
-        "from": "2026-10-18T21:00:00Z",
-        "to": "2026-10-21T21:00:00Z",
+        "from": "2026-10-19T21:00:00Z",
+        "to": "2026-10-22T21:00:00Z",
         "code": 200,
         "msg": "OK"
       }
